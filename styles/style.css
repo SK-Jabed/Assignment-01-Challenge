@@ -100,4 +100,145 @@
   text-align: center;
 }
 
+/* reason section style starts here */
+.dev-reason-container {
+  width: 1140px;
+  height: 1395px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 74px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.reason-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  margin-top: 80px;
+}
+.reason-texts h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.reason-texts p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 24px;
+}
 
+.do-coding-container {
+  width: 946px;
+  height: 336px;
+  border: 2px solid blue;
+  margin: 0 auto;
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.do-coding-texts {
+  margin-right: 200px;
+}
+.do-coding-texts h2 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.do-coding-texts p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+.do-coding-texts button {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  background-color: white;
+}
+
+/* inspiration styles starts here */
+.inspiration-container {
+  width: 1140px;
+  height: 777px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 88px;
+  
+
+}
+.inspiration-text {
+  border: 2px solid green;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inspiration-text h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-left: 50px;
+}
+.inspiration-text p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-top: 24px;
+}
+.iframe-container {
+  box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 48px 0px;
+padding: 22px;
+}
+.iframe-video {
+  border-radius: 16px;
+  margin: 10px 10px;
+ 
+}
